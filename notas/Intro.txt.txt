@@ -1,0 +1,55 @@
+# Bootcamp GFT
+
+Git x GitHub
+
+Git - software para controle de versão/alterações;
+
+GitHub - Hospedagem de repositórios, repositório remoto.
+
+GUI (Graphical User Interface) X CLI (Command-line Interface)
+
+Comandos básicos Prompt de Comando e também no Git bash:
+
+cd (mudar de pastas);
+dir (listar as pastas);
+mkdir (criar as pastas/arquivos);
+del/rmdir (deletar arquivos e diretórios, respectivamente);
+cd .. (retroceder diretório/pasta);
+cls (limpar a tela de comando);
+echo (printar no terminal algum texto).
+
+
+SHA1 - Secure Hash Algorithm
+ conjunto de funções hash criptgráficas. 
+ É uma forma reduzida de representar arquivos/informação, 
+ gerando 40 dígitos de representação.
+
+Objetos internos do Git:
+
+Blobs;
+Trees;
+Commit.
+
+"Git é um sistema distribuído e seguro"
+
+Chaves SSH x Tokens
+
+Chaves SSH - forma de estabelecer uma conexão mais segura e encriptada entre
+duas máquinas. Há sempre duas chaves, nesse caso, a que é usada juntamente com
+o GitHub, pública, e a usada no Git para alguma demanda, privada;
+
+Tokens - É um sistema gerador de senhas, pode ser gerado no GitHub e depois 
+fixado na máquina para usar quando necessário.
+
+Alguns outros comandos Git:
+
+git init - inicia um Git;
+
+git add - inicia um versionamento;
+
+git commit -m "msg" - tira os arquivos do staged, vincula a um nome/mensagem
+e cria um objeto commit;
+
+git status - traz informações, como por exemplo, fase em que o 
+arquivo se encontra.
+
